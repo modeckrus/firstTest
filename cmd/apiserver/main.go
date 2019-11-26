@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"myrestapi/internal/app/apiserver"
+	"github.com/sirupsen/logrus"
 )
 
 func main() {
 	fmt.Println("Hello world")
-	apiserver.NewDB()
+	logrus.Warn("Hello world")
 }
